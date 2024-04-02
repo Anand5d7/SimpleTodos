@@ -5,11 +5,17 @@
   align-items: center;
   justify-content: space-between;
 }
-
+.tittle-text {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 100%;
+}
 .title {
   color: #000000;
   font-family: 'Roboto';
   font-size: 16px;
+  text-align: start;
   font-weight: 600;
 }
 
@@ -23,10 +29,10 @@
   background-color: #ffffff;
   color: #ff0b37;
   font-family: 'Roboto';
-  font-size: 12px;
+  font-size: 18px;
   border-radius: 8px;
   height: 35px;
-  width: 70px;
+  width: 100px;
   border: 1px solid #ff0b37;
   outline: none;
   cursor: pointer;
@@ -37,4 +43,51 @@
     font-size: 15px;
     margin-left: 32px;
   }
+}
+
+.save-btn {
+  background-color: #ffffff;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border-radius: 8px;
+  height: 35px;
+  width: 70px;
+  border: 2px solid #ff0b37;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 50px;
+}
+
+.save-btn:hover {
+  color: #ff8542;
+  border: 2px solid #ff8542;
+  font-size: 18px;
+}
+
+.save-text {
+  height: 27px;
+  width: 80%;
+  border-radius: 6px;
+  padding-left: 5px;
+}
+
+.checkbox {
+  margin-right: 50px;
+}
+
+.edit-btn {
+  background-color: #ffffff;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border-radius: 8px;
+  height: 35px;
+  width: 70px;
+  border: 1px solid #ff0b37;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 50px;
 }
